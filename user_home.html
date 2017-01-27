@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>USER1</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	<link rel="stylesheet" type="text/css" href="style/bootstrap-datepicker.css">
+	<link rel="stylesheet" type="text/css" href="style/user_home.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script/bootstrap-datepicker.min.js"></script>
+   <script type="text/javascript" src="script/2.5.3-crypto-md5.js"></script>
+	<script type="text/javascript" src="script/user_home.js"></script>
+	
+
+</head>
+<body onunload="function set(){}">
+
+
+  <div id="div1">
+  		<p>Health Record
+  		<button id="logout" class="btn btn-primary btn-sm" onclick="log_out();">logout</button>
+  		</p>
+  </div>
+  
+  <div id="div2">
+   		<p id="p1"></p> 
+  </div>
+
+   <div id="div3">
+  		<div id="div4">
+  			<p id="p2">Personal Information</p>
+  			<a href="user_entry.html"><p id="p3">Results</p></a>
+        <a href="user_entry.html"><p id="p4">Medication</p></a>
+        <a href="user_entry.html"><p id="p4">Allergy</p></a>
+  			<a href="user_recordings.html"><p id="p5">Recordings</p></a>
+  		</div>
+  		<div id="div5">
+  			<table>
+  				
+  				<tr>
+  					<td>Name</td>
+  			
+            <td><div id="fetch_name"></div></td>
+  				</tr>
+  				<tr>
+  					<td>Address</td>
+  		
+  					<td><textarea id="address"></textarea></td>
+  				</tr>
+  				<tr>
+  					<td>DOB</td>
+  			
+  					<td><input type="text" class="datepicker" id="dob"/></td>
+  				</tr>
+        
+          <tr>
+                	
+              <td>Blood Group</td>
+          
+              <td>
+                	<select id="bg">
+                		<option value="A+ve">A+ve</option>
+                		<option value="A-ve">A-ve</option>
+                		<option value="B+ve">B+ve</option>
+                		<option value="B-ve">B-ve</option>
+                		<option value="O+ve">O+ve</option>
+                		<option value="O-ve">O-ve</option>
+                		<option value="AB+ve">AB+ve</option>
+                		<option value="AB-ve">AB-ve</option>
+                	</select>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>Reset Password</td>
+          
+              <td><input type="password" id="p_word"></td>
+           </tr>
+           
+  			</table>
+    
+        <div id="div6">
+  			      <p>Body Measurements</p>
+  	     </div> 
+
+  	     <div id="div7">
+  	     <table>
+
+         <tr>
+            <td>Date</td>
+        
+            <td><input type="text" class="datepicker" id="date"/></td>
+          </tr>
+
+  	     	<tr>
+  	     		<td>Height</td>
+  	     
+  	     		<td><input type="text" id="height"/></td>
+  	     		<td>Unit</td>
+  	 
+  	     		<td>
+  	     			<select id="hid">
+  	     				<option>cm</option>
+  	     				<option>feet</option>
+  	     			</select>
+  	     		</td>
+  	     	</tr>
+
+  	     	<tr>
+  	     		<td>Weight</td>
+  	     	
+  	     		<td><input type="text" id="weight"/></td>
+  	     		<td>Unit</td>
+  	     		
+  	     		<td>
+  	     			<select id="wid">
+  	     				<option>kg</option>
+  	     				<option>pounds</option>
+  	     			</select>
+  	     		</td>
+  	     	</tr>
+
+  	     </table>
+  	     <button id="save" onclick="validate_user_entry();">submit</button>
+  	 </div>
+  		
+    </div>
+  		 
+ 	 </div>
+
+ 	
+
+<script>
+	$('.datepicker').datepicker({
+		autoclose:true,
+		format: 'yyyy-mm-dd'
+	});
+
+</script>
+
+</body>
+</html>

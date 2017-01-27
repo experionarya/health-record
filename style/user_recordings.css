@@ -1,0 +1,108 @@
+
+body {
+		margin:auto;
+		background-color: #edf4f9;
+}
+
+#table1 {
+			margin-left: 100px;
+			float: left;
+			margin-top: 80px;
+
+}
+
+#table1 th, td {
+				  padding: 10px;
+				  text-align: center;
+
+} 
+
+#table1 td {
+	         color: #333;
+	         border-bottom: 1px solid #F0ECEB;
+
+}
+#table1 th {
+			  border-bottom: 1px solid black;
+			  background-color: #00a0af;
+			  color: white;
+}
+
+#div2 {
+		padding: 0;
+		float: left;
+		margin: auto;
+		width: 100%;
+	   background-color: #004b8d;
+}
+
+#div2 p {
+			margin-left: 20px;
+			font-size: 30px;
+			color: white;
+}
+
+#back:hover {
+	 			background-color: #01b2c1;
+}
+
+#back {
+			float: right;
+			background-color:transparent;
+			color: white;
+			border-style: none;
+			margin-right: 25px;
+}
+
+#logout {
+			float: right;
+			background-color:transparent;
+			color: white;
+			border-style: none;
+			margin-right: 15px;
+}
+
+#logout:hover {
+	 			background-color: #01b2c1;
+}
+
+
+button {
+		color: black;
+		border-style: none;
+		 background-color: #004b8d;
+		 border-right: 5px;
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	
+	#div2 p{
+		
+		font-size: 70px;
+	}
+
+	#back ,#logout {
+	                 font-size: 35px;
+    }
+
+    table td {
+    	font-size: 40px;
+    }
+     
+    #table1 {
+				margin-left: 80px;
+	}
+
+	#table1 th {
+ 					font-size: 30px;
+	} 
+
+	#table1 td {
+ 					font-size: 45px;
+	} 
+
+	#filter {
+				font-size: 30px;
+	}
+}

@@ -1,0 +1,239 @@
+
+body {
+	    background-color: #edf4f9;
+		margin: auto;
+}
+
+#head {
+	    background-color: #004b8d;
+		padding: 10px;
+}
+
+#head p {
+	        margin-left: 10px;
+			font-size: 30px;
+			color: white;
+}
+
+#div1 {
+			margin: auto;
+		    padding: 15px 0px;
+			border-bottom: 1px solid #F0ECEB;
+			background-color: #00a0af;
+			float: left;
+			width: 100%;
+}
+
+#div1 p {
+			font-size: 30px;
+			display: inline;
+			color: white;
+			margin-left: 20px;
+}
+
+#logout {
+			float: right;
+			background-color:transparent;
+			color: white;
+			border-style: none;
+			margin-right: 15px;
+}
+
+#logout:hover {
+	 			background-color: #01b2c1;
+}
+
+#back:hover {
+	 			background-color: #01b2c1;
+}
+
+#back {
+			float: right;
+			background-color:transparent;
+			color: white;
+			border-style: none;
+			margin-right: 25px;
+}
+
+#p3:hover {
+			background-color: #004b8d;
+}
+
+#p4:hover {
+			background-color: #004b8d;
+}
+
+
+#div2 {
+		border-right: 1px solid #F0ECEB;
+		margin: auto;
+		min-height: 380px;
+	
+}
+
+#div3 {
+		border-right: 1px solid #F0ECEB;
+		margin:0;
+		float: left;
+		min-height: 500px;
+		background-color: #00a0af;
+		padding: 0;
+}
+
+#div3 #p3,#p4  {
+					padding: 20px;
+					border-bottom: 1px solid #F0ECEB;
+					margin:0;
+					text-align: center;
+					color: white;
+					font-size: 20px;
+}
+	
+#div3 a {
+			text-decoration: none;
+			color: black;
+
+}
+
+#div4 {
+		float: left;
+		margin-top: 40px;
+	    margin-left: 80px;
+	    width: 45%;
+	    min-height: 380px;
+    
+}
+
+#add {
+			margin-top: 17px;
+			float: right;
+			margin-right: 102px;
+			background-color: #004b8d;
+			color: white;
+			border-style: none;
+			padding: 10px;
+			border-radius: 5px;
+}
+
+#div4 table td {
+				margin-left: 40px;
+				padding:20px;
+				color: #333;
+}
+
+#table1 {
+			margin-left: 55px;
+			float: left;
+			margin-top: 20px;
+}
+
+#table1 th, td {
+				  padding: 10px;
+				  text-align: center;
+} 
+
+#table1 th {
+			  border-bottom: 1px solid black;
+			  background-color: #004b8d;
+			  color: white;
+}
+
+button {
+			color: white;
+			border-style: none;
+			background-color: #004b8d;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+	#head {
+			background-color: #566573;
+			padding: 30px;
+    }
+
+    #head h1 {
+				margin-left: 80px;
+				font-size: 80px;
+    }
+
+    #div1 {
+			width:83%;
+			border: none;
+			padding: 15px;
+	}
+
+    #div1 p {
+				font-size: 60px;
+	}
+
+	#back,#logout {
+				margin-top: 20px;
+				font-size: 30px;
+	}
+
+
+	#div2 #p1 {
+				font-size: 40px;
+		    
+	}
+
+	#div2 #p2 {
+				width: 44%;
+				font-size: 40px;
+	}
+
+	#div3 {
+			border: 1px solid black;
+			width: 86%;
+			margin: auto;
+			min-height: 900px;
+	}
+
+	#div4 {
+			width:100%;
+			min-height: 180px;
+	}
+
+	#div4 #p3,#p4,#p5 {
+						font-size: 40px;
+	}
+
+	#div5 {
+			margin-top: 60px;
+	    	margin-left: 130px;
+	}
+
+	.input {
+			  height: 40px; 
+			  width:280px
+	}
+
+	#div5 #submit {
+					font-size: 30px;
+					margin-right:0px;
+	}
+
+	#div5 table td {
+					 margin-left: 20px;
+					 padding:20px;
+					 font-size: 40px;
+	}
+
+	#table1 {
+				float: left;
+				margin-left: 10px;
+	
+    }
+
+    #table1 th, td {
+					  padding: 10px;
+					  text-align: center;
+					  font-size: 35px;
+    } 
+
+    
+    button {
+	        font-size: 30px;
+
+    }
+}    

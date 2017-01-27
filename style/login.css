@@ -1,0 +1,74 @@
+
+body {
+	    width:80%;
+		margin:auto;
+		background-color: #aeb6bf;
+		background-image: url("../images/healthrecord.jpg");
+	    background-size: 100%;
+		background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	background-position: center;
+}
+
+
+#div1 {
+		 padding:20px;
+	     width: 31%;
+	     text-align: center;
+	     font-size: 30px;
+	     background-color: rgba(208, 225, 250,0.85);
+	     border-radius: 5px;
+	     margin:120px 0px 0px 300px;
+
+}
+
+#div2 {
+		text-align: center;
+		width: 30%;
+		margin-left: 300px;
+		padding-top: 30px;
+		padding-right: 31px;
+		padding-left: 20px;
+		min-height: 161px;
+		background-color: rgba(255, 255, 255,0.6);
+		border-radius: 5px;
+	
+}
+
+#div2 #login {
+				float: right;
+				margin-right: 23px;
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  
+	body {
+		    /*width:100%;*/
+			margin:auto;
+			background-color: #aeb6bf;
+			background-size: 480px 100%;
+	}
+
+	#div1 {
+			 
+		     width: 85%;
+		     margin:120px 0px 0px 5px;
+		     /*margin:0;*/
+    }
+
+	#div2 {
+			
+			width: 81%;
+			margin-left: 5px;
+	}
+
+	#div2 #login {
+					float: none;
+					margin-right: 0px;
+					padding-left: 70px;
+					padding-right: 70px;
+	}
+
+
+}

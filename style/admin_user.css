@@ -1,0 +1,246 @@
+
+body {
+	    background-color: #edf4f9;
+		margin: auto;
+}
+
+#head {
+	    background-color: #004b8d;
+		padding: 10px;
+}
+
+#head p {
+	        margin-left: 10px;
+			font-size: 30px;
+			color: white;
+}
+
+#div1 {
+			margin: auto;
+		    padding: 15px 0px;
+			border-bottom: 1px solid #F0ECEB;
+			background-color: #00a0af;
+			float: left;
+			width: 100%;
+}
+
+#div1 p {
+			font-size: 25px;
+			display: inline;
+			color: white;
+}
+
+#logout {
+			float: right;
+			background-color:transparent;
+			color: white;
+			border-style: none;
+			margin-right: 15px;
+}
+
+#logout:hover {
+	 			background-color: #01b2c1;
+}
+
+#div1 #p0,#p1,#p2 {
+					padding: 15px 0px;
+					margin-left: 20px;
+}
+
+#div1 a {
+			text-decoration: none;
+}
+
+#div1 #p1{
+			margin-left: 40px;
+}
+
+#div1 #p2 {
+			margin-left: 50px;
+}
+
+#p1:hover {
+			background-color: #01b2c1;
+}
+
+#p2:hover {
+			background-color: #01b2c1;
+}
+
+
+#div2 {
+		border-right: 1px solid #F0ECEB;
+		margin: auto;
+		min-height: 380px;
+	
+}
+
+#div3 {
+		border-right: 1px solid #F0ECEB;
+		margin:0;
+		float: left;
+		min-height: 500px;
+		background-color: #00a0af;
+		padding: 0;
+}
+
+#div3 #p3,#p4  {
+					padding: 20px;
+					border-bottom: 1px solid #F0ECEB;
+					margin:0;
+					text-align: center;
+					color: white;
+					font-size: 20px;
+}
+	
+#div3 a {
+			text-decoration: none;
+			color: black;
+
+}
+
+#p3:hover {
+			background-color: #004b8d;
+}
+
+#p4:hover {
+			background-color: #004b8d;
+}
+
+#div4 {
+		float: left;
+		margin-top: 40px;
+	    margin-left: 80px;
+	    width: 45%;
+	    min-height: 380px;
+    
+}
+
+#div4 #age {
+			width: 20%;
+}
+
+#div5 #add {
+			margin-top: 17px;
+			float: right;
+			margin-right: 17px;
+			background-color: #004b8d;
+			color: white;
+			border-style: none;
+			padding: 10px;
+			border-radius: 5px;
+}
+
+#div4 table td{
+				margin-left: 20px;
+				padding:20px;
+				color: #333;
+}
+
+#div5 table td{
+				margin-left: 20px;
+				padding:20px;
+				color: #333;
+}
+#div5 {
+		float: left;
+		margin-top: 24px;
+		margin-left: -56px;
+    
+}
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+	#head {
+			background-color: #566573;
+			padding: 30px;
+    }
+
+    #head h1 {
+				margin-left: 80px;
+				font-size: 80px;
+
+    }
+
+    #div1 {
+			width:83%;
+			border: none;
+			padding: 15px;
+			
+	}
+
+    #div1 p {
+				font-size: 60px;
+	}
+
+	#logout {
+				margin-top: 20px;
+				font-size: 30px;
+	}
+
+
+	#div2 #p1 {
+				font-size: 40px;
+		    
+	}
+
+	#div2 #p2 {
+				width: 44%;
+				font-size: 40px;
+	}
+
+	#div3 {
+			border: 1px solid black;
+			width: 86%;
+			margin: auto;
+			min-height: 900px;
+	}
+
+	#div4 {
+			width:100%;
+			min-height: 180px;
+	}
+
+	#div4 #p3,#p4,#p5 {
+						font-size: 40px;
+	}
+
+	#div5 {
+			float: left;
+			margin-top: 31px;
+	    	margin-left: 130px;
+	    	width: 50%;
+	}
+
+	.input {
+			  height: 40px; 
+			  width:280px
+	}
+
+	#div5 #add {
+					font-size: 30px;
+	}
+
+	#div5 table td {
+						margin-left: 20px;
+						padding:20px;
+						font-size: 40px;
+	}
+
+	#div6	{
+				margin-left: 130px;
+    
+	}
+
+	#div6 table td {
+						font-size: 40px;
+	}
+
+	#div6 #remove {
+					margin-top: 30px;
+					margin-right: -129px;
+					font-size: 30px;
+	}
+}
